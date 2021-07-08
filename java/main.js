@@ -1,12 +1,12 @@
 var elParagraph = document.querySelector('.allowance');
 
-var userName = prompt('What is your name please: ');
+var userName = prompt('What is your name please: ', "Alisher");
 
-var wantedCountry = prompt(`${userName} which country do you want to travel: `);
+var wantedCountry = prompt(`${userName} which country do you want to travel: `, "USA");
 
 alert('"' + wantedCountry + '"' + " uchun umimiy xarajatlar: \nBorib-kelish uchun samalyot bileti -$500 \nMehmonxona to`lovi (to`liq safar davomiyligi uchun) -$250 \nMuzey va ko`ngilochar joylar uchun -120 yevro ");
 
-var yourMoney = prompt(userName + " how much money do you have in uzbek sums? ");
+var yourMoney = prompt(userName + " how much money do you have in uzbek sums? ", 0);
 
 alert("Dollorni sumga o`girish: \n$1 = 10 628,68 sums \n1yevro = 12 546,09 sums");
 
